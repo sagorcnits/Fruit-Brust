@@ -74,16 +74,19 @@
 
     <main>
       <!-- banner section start -->
-      <section class="max-w-6xl mx-auto px-4 mt-10 lato-font">
-        <div class="carousel w-full h-[500px] rounded-lg">
-          <div
-            id="slide1"
-            class="carousel-item relative w-full bg-[url('images/banner1.png')] bg-no-repeat bg-[100%]"
-          >
+      <section
+        class="max-w-6xl lg:h-[100vh] mx-auto px-4 mt-4 lg:mt-10 lato-font"
+      >
+        <div
+          class="carousel w-full lg:h-[500px] h-[400px] rounded-lg *:bg-cover *:bg-[100%] *:bg-no-repeat *:w-full *:relative *:carousel-item"
+        >
+          <div id="slide1" class="carousel-item bg-[url('images/banner1.png')]">
             <div
-              class="w-1/2 mx-auto *:text-center *:text-white mt-24 space-y-6"
+              class="lg:w-1/2 mx-auto *:text-center *:text-white mt-24 space-y-6"
             >
-              <h1 class="text-5xl font-bold">Exotic tastes at your doorstep</h1>
+              <h1 class="lg:text-5xl text-2xl font-bold">
+                Exotic tastes at your doorstep
+              </h1>
               <p>We supply highly quality organic products</p>
               <button
                 class="px-7 py-3 rounded-lg cursor-pointer hover:bg-black duration-300 mx-auto block bg-[#F85559]"
@@ -100,10 +103,7 @@
             </div>
           </div>
           <!-- slider 2 -->
-          <div
-            id="slide2"
-            class="carousel-item relative w-full bg-[url('images/banner2.png')] bg-no-repeat bg-[100%]"
-          >
+          <div id="slide2" class="carousel-item bg-[url('images/banner2.png')]">
             <div
               class="w-1/2 mx-auto *:text-center *:text-white mt-24 space-y-6"
             >
@@ -123,10 +123,7 @@
             </div>
           </div>
           <!-- slider 3 -->
-          <div
-            id="slide3"
-            class="carousel-item relative w-full bg-[url('images/banner3.png')] bg-no-repeat bg-[100%]"
-          >
+          <div id="slide3" class="carousel-item bg-[url('images/banner3.png')]">
             <div
               class="w-1/2 mx-auto *:text-center *:text-white mt-24 space-y-6"
             >
@@ -146,10 +143,7 @@
             </div>
           </div>
           <!-- slider 4 -->
-          <div
-            id="slide4"
-            class="carousel-item relative w-full bg-[url('images/banner4.png')] bg-no-repeat bg-[100%]"
-          >
+          <div id="slide4" class="carousel-item bg-[url('images/banner4.png')]">
             <div
               class="w-1/2 mx-auto *:text-center *:text-white mt-24 space-y-6"
             >
@@ -171,7 +165,7 @@
         </div>
 
         <div
-          class="flex flex-col items-center justify-around *:text-center lg:flex-row mx-auto w-10/12 h-[220px] bg-white rounded-lg shadow-[0px_8px_60px_0px_rgba(0,0,0,0.05)] -translate-y-28"
+          class="flex flex-col items-center justify-around *:text-center lg:flex-row mx-auto w-10/12 lg:h-[220px] bg-white rounded-lg shadow-[0px_8px_60px_0px_rgba(0,0,0,0.05)] -translate-y-28 *:mt-2 lg:*:mt-0"
         >
           <div>
             <img src="images/fruit1.png" alt="" />
@@ -179,11 +173,11 @@
           </div>
           <div>
             <img src="images/fruit2.png" alt="" />
-            <p>Strawberry</p>
+            <p>Orange</p>
           </div>
           <div>
             <img src="images/fruit3.png" alt="" />
-            <p>Strawberry</p>
+            <p>Mango</p>
           </div>
           <div>
             <img src="images/fruit4.png" alt="" />
@@ -191,7 +185,7 @@
           </div>
           <div>
             <img src="images/fruit5.png" alt="" />
-            <p>Strawberry</p>
+            <p>Mango</p>
           </div>
         </div>
       </section>
