@@ -78,7 +78,7 @@
         class="max-w-6xl lg:h-[100vh] mx-auto px-4 mt-4 lg:mt-10 lato-font"
       >
         <div
-          class="carousel w-full lg:h-[500px] h-[400px] rounded-lg *:bg-cover *:bg-[100%] *:bg-no-repeat *:w-full *:relative *:carousel-item"
+          class="carousel w-full lg:h-[500px] h-[300px] rounded-lg *:bg-cover *:bg-[100%] *:bg-no-repeat *:w-full *:relative *:carousel-item"
         >
           <div id="slide1" class="carousel-item bg-[url('images/banner1.png')]">
             <div
@@ -165,7 +165,7 @@
         </div>
 
         <div
-          class="flex flex-col items-center justify-around *:text-center lg:flex-row mx-auto w-10/12 lg:h-[220px] bg-white rounded-lg shadow-[0px_8px_60px_0px_rgba(0,0,0,0.05)] -translate-y-28 *:mt-2 lg:*:mt-0"
+          class="hidden lg:flex flex-col items-center justify-around *:text-center lg:flex-row mx-auto w-10/12 lg:h-[220px] bg-white rounded-lg shadow-[0px_8px_60px_0px_rgba(0,0,0,0.05)] -translate-y-28 *:mt-2 lg:*:mt-0"
         >
           <div>
             <img src="images/fruit1.png" alt="" />
@@ -193,9 +193,9 @@
       <!-- Deal of the day section start  -->
 
       <section class="max-w-6xl mx-auto lato-font px-4 lg:px-0">
-        <div class="flex flex-col lg:flex-row justify-between">
-          <div class="space-y-3">
-            <h2 class="text-5xl text-[#121212]">Deal of the day</h2>
+        <div class="flex flex-col lg:flex-row justify-between items-center">
+          <div class="space-y-3 mt-4">
+            <h2 class="text-2xl lg:text-5xl text-[#121212]">Deal of the day</h2>
             <p>
               Contrary to popular belief, is not simply random text. It has
               roots in a piece of classical <br />
@@ -584,7 +584,7 @@
             </div>
           </div>
           <div>
-            <img src="images/whychoose1.png" alt="" />
+            <img class="w-full" src="images/whychoose1.png" alt="" />
           </div>
           <div>
             <div class="flex gap-4 flex-row-reverse *:text-end">
@@ -646,5 +646,35 @@
         </div>
       </section>
     </main>
+
+    <footer
+      class="footer gap-y-4 footer-center lg:p-10 bg-[#121212] text-white lg:py-20 py-4 lg:mt-20 mt-4 rounded"
+    >
+      <div class="flex">
+        <img class="lg:w-10 w-8 mr-1" src="images/logo.png" alt="" />
+        <h1 class="text-xl lg:text-3xl text-white">Fruit Burst</h1>
+      </div>
+      <nav class="grid lg:grid-flow-col gap-6 text-[18px]">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Shop</a>
+        <a class="link link-hover">All Fruits</a>
+        <a class="link link-hover">Support</a>
+        <a class="link link-hover">My Account</a>
+      </nav>
+      <nav>
+        <div class="grid grid-flow-col gap-4"></div>
+      </nav>
+      <aside>
+        <nav class="grid grid-flow-col gap-6 text-2xl">
+          <a class="link"><i class="fa-brands fa-youtube"></i></a>
+          <a class="link"><i class="fa-brands fa-facebook"></i></a>
+          <a class="link"><i class="fa-brands fa-twitter"></i></a>
+          <a class="link"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a class="link"><i class="fa-brands fa-instagram"></i></a>
+          <a class="link"><i class="fa-brands fa-apple"></i></a>
+        </nav>
+      </aside>
+    </footer>
   </body>
 </html>
